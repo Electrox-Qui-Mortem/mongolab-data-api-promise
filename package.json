@@ -1,0 +1,25 @@
+{
+  "name": "mongolab-data-api-promise",
+  "version": "0.0.1-alpha",
+  "description": "A node.js promise version of mongolab-data-api",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Electrox-Qui-Mortem/mongolab-data-api-promise.git"
+  },
+  "keywords": [
+    "mongodb",
+    "mongolab",
+    "api"
+  ],
+  "author": "Jermahl White",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Electrox-Qui-Mortem/mongolab-data-api-promise/issues"
+  },
+  "dependencies": {
+    "request-promise": "^4.2.2",
+    "request": "^2.88.0"
+  }
+}
