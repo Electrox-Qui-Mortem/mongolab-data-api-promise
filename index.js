@@ -1,6 +1,6 @@
 'use strict';
 var rp = require('request-promise');
-module.exports = class mLabInteractor {
+module.exports = class mlabInteractor {
     constructor(apiKey){
         this.apiKey = apiKey;
         rp({
@@ -89,7 +89,7 @@ module.exports = class mLabInteractor {
         return rp(opt)
     }
     updateDocuments(options){
-        if(!options.database || !options.collectionName || !options.data) throw new Error('Invalid Options')
+        if(!options.database || !options.collectionName || !options.documents) throw new Error('Invalid Options')
         var op = {
             q: options.query,
             m: options.allDocuments,
