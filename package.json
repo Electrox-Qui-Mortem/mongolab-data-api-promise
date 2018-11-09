@@ -1,7 +1,7 @@
 {
   "name": "mongolab-data-api-promise",
-  "version": "0.0.1-alpha",
-  "description": "A node.js promise version of mongolab-data-api. Docs may be added if I care enough about this to add them. It's essentially the same as mongolab-data-api, except instead of specifying a callback, you just use .then",
+  "version": "0.0.1",
+  "description": "A node.js promise version of mongolab-data-api. It's essentially the same as mongolab-data-api, except instead of specifying a callback, you just use .then",
   "main": "index.js",
   "scripts": {},
   "repository": {
