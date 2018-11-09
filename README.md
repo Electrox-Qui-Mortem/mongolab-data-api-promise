@@ -224,7 +224,7 @@ commands| MongoDB database command | `Object` | Yes |
     - dbStats
     
 ## Requirements
-
+- [mongolab-data-api-promise](https://github.com/Electrox-Qui-Mortem/mongolab-data-api-promise/)
 - [mLab](https://mlab.com/) account w/API key.
 - [node.js](https://nodejs.org/en/download/) v8.0+ (This module was made in this version)
 - [request](https://www.npmjs.com/package/request) 2.88.0
